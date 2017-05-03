@@ -36,7 +36,13 @@ exports.checkLength = function(str){
 
 
 exports.containsUpper =function(str){
+  let hasUpper = false
 
+  try{
+    for(let i=0;i < str.length;i++){
+      if(str[i] >=65 && str[i] <= 90)
+    }
+  }
 }
 
 
